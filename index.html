@@ -51,7 +51,7 @@ font-size:15px;
 .hero{
 background:url('main-warehouse.png') center/cover;
 padding:150px 20px;
-color:white;
+color:Yellow;
 text-align:center;
 }
 
@@ -172,10 +172,6 @@ display:none;
 
 
 <section class="hero">
-
-<section class="hero">
-
-<img src="logo.png" style="width:200px;margin-bottom:30px">
 
 <h1>
 온라인 셀러를 위한<br>
@@ -388,6 +384,139 @@ target="_blank">
 
 <a class="float-btn quote" href="quote.html">견적 요청</a>
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3PL 견적 요청 | 더블케이로지스</title>
+  <meta name="description" content="더블케이로지스 3PL 물류 견적 요청 페이지입니다. 김포, 인천, 파주 인근 온라인 셀러를 위한 맞춤형 물류 상담.">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    .wrap {
+      max-width: 760px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 40px 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .desc {
+      text-align: center;
+      color: #666;
+      margin-bottom: 28px;
+      line-height: 1.7;
+    }
+
+    label {
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 15px;
+      margin-top: 18px;
+      border: none;
+      border-radius: 6px;
+      background: #000;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .btn-kakao {
+      background: #FEE500;
+      color: #000;
+    }
+
+    .btn-home {
+      background: #444;
+    }
+
+    .note {
+      margin-top: 18px;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <h1>3PL 물류 견적 요청</h1>
+    <p class="desc">
+      김포 · 인천 · 파주 인근 온라인 셀러를 위한<br>
+      더블케이로지스 맞춤형 물류 상담 페이지입니다.
+    </p>
+
+    <form action="mailto:doublek_logis@naver.com" method="post" enctype="text/plain">
+      <label for="company">회사명</label>
+      <input type="text" id="company" name="company" placeholder="회사명을 입력하세요">
+
+      <label for="name">담당자 이름</label>
+      <input type="text" id="name" name="name" placeholder="담당자 이름을 입력하세요">
+
+      <label for="phone">연락처</label>
+      <input type="text" id="phone" name="phone" placeholder="연락처를 입력하세요">
+
+      <label for="volume">월 출고량</label>
+      <select id="volume" name="volume">
+        <option>월 500건 이하</option>
+        <option>월 1,000건</option>
+        <option>월 3,000건</option>
+        <option>월 5,000건 이상</option>
+      </select>
+
+      <label for="pallet">보관 파렛트 수량</label>
+      <input type="text" id="pallet" name="pallet" placeholder="예: 10파렛트">
+
+      <label for="product">취급 상품 / 요청사항</label>
+      <textarea id="product" name="product" placeholder="상품 종류, 출고 형태, 특이사항 등을 입력해 주세요"></textarea>
+
+      <button type="submit" class="btn">📦 견적 요청 보내기</button>
+    </form>
+
+    <a class="btn btn-kakao" href="https://open.kakao.com/o/sqStQbth" target="_blank">💬 카카오로 바로 상담하기</a>
+    <a class="btn btn-home" href="/">← 홈페이지로 돌아가기</a>
+  
 </div>
 
 
