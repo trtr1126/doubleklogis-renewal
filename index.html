@@ -1,385 +1,344 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>김포 3PL 물류센터 | 더블케이로지스 풀필먼트</title>
 
-  <meta name="description" content="김포 3PL 물류센터 더블케이로지스. 김포, 인천, 파주 인근 온라인 셀러를 위한 풀필먼트 물류 서비스 제공. 입고, 보관, 재고관리, 피킹, 포장, 출고까지 원스톱 물류대행.">
-  <meta name="keywords" content="김포3PL, 김포풀필먼트, 인천3PL, 파주3PL, 김포물류센터, 인천물류센터, 물류대행, 쇼핑몰물류, 풀필먼트서비스">
-  <meta name="robots" content="index, follow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta property="og:title" content="김포 3PL 물류센터 | 더블케이로지스">
-  <meta property="og:description" content="김포·인천·파주 인근 온라인 셀러를 위한 3PL 풀필먼트 물류센터">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://doubleklogis.com">
-  <meta property="og:site_name" content="더블케이로지스">
+<title>김포 3PL 물류센터 | 더블케이로지스</title>
 
-  <style>
-    * { box-sizing: border-box; }
+<meta name="description" content="김포 3PL 물류센터 더블케이로지스. 김포시 대곶면 위치. 인천, 파주 인근 온라인 셀러를 위한 풀필먼트 물류 서비스 제공.">
+<meta name="description" content="김포 3PL 물류센터 더블케이로지스. 김포, 인천, 파주 인근 온라인 셀러를 위한 풀필먼트 물류 서비스 제공. 입고, 보관, 재고관리, 피킹, 포장, 출고까지 원스톱 물류대행.">
+<meta name="keywords" content="김포3PL, 김포풀필먼트, 인천3PL, 파주3PL, 김포물류센터, 인천물류센터, 물류대행, 쇼핑몰물류, 풀필먼트서비스">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="김포 3PL 물류센터 | 더블케이로지스"><meta property="og:description" content="김포·인천·파주 인근 온라인 셀러를 위한 3PL 풀필먼트 물류센터">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://doubleklogis.com">
+<meta property="og:site_name" content="더블케이로지스">  
+  
+<style>
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f6f6f6;
-      color: #111;
-      line-height: 1.6;
-    }
+*{box-sizing:border-box}
 
-    .header {
-      background: #000;
-      color: #fff;
-      text-align: center;
-      padding: 24px 16px;
-      font-size: 30px;
-      font-weight: 700;
-    }
+body{
+margin:0;
+font-family:Arial;
+background:#f5f5f5;
+color:#111;
+}
 
-    .hero {
-      position: relative;
-      min-height: 520px;
-      background: url('main-warehouse.jpg') center center / cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+.header{
+background:#000;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.45);
-    }
+.logo{
+font-size:22px;
+font-weight:bold;
+}
 
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      color: #fff;
-      padding: 20px;
-      max-width: 980px;
-    }
+.nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:15px;
+}
 
-    .hero h1 {
-      font-size: 46px;
-      margin: 0 0 18px;
-      line-height: 1.2;
-    }
+.hero{
+background:url('main-warehouse.jpg') center/cover;
+padding:150px 20px;
+color:white;
+text-align:center;
+}
 
-    .hero p {
-      font-size: 21px;
-      margin: 0 0 28px;
-      color: #f2f2f2;
-    }
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
 
-    .btn-group {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
+.btn{
+display:inline-block;
+padding:14px 22px;
+margin:8px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
 
-    .btn {
-      display: inline-block;
-      padding: 14px 28px;
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 17px;
-      font-weight: 700;
-      transition: 0.2s ease;
-    }
+.section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
+text-align:center;
+}
 
-    .btn-primary {
-      background: #fff;
-      color: #000;
-    }
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
 
-    .btn-primary:hover {
-      opacity: 0.9;
-    }
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+}
 
-    .section {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 70px 20px;
-    }
+.contact{
+background:#111;
+color:white;
+padding:70px 20px;
+text-align:center;
+}
 
-    .section-title {
-      text-align: center;
-      font-size: 36px;
-      margin-bottom: 18px;
-    }
+.footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+}
 
-    .section-desc {
-      text-align: center;
-      font-size: 18px;
-      color: #555;
-      max-width: 900px;
-      margin: 0 auto 40px;
-    }
+.floating{
+position:fixed;
+right:25px;
+bottom:25px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
 
-    .services {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-    }
+.float-btn{
+padding:12px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+color:white;
+}
 
-    .service-item {
-      background: #fff;
-      border-radius: 12px;
-      padding: 28px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    }
+.kakao{background:#FEE500;color:black}
+.phone{background:#000}
+.quote{background:#0073ff}
 
-    .service-item h3 {
-      margin: 0 0 12px;
-      font-size: 24px;
-    }
+@media(max-width:900px){
 
-    .service-item p {
-      margin: 0;
-      color: #555;
-      font-size: 16px;
-    }
+.gallery{
+grid-template-columns:1fr;
+}
 
-    .gallery-grid-3,
-    .gallery-grid-6 {
-      display: grid;
-      gap: 20px;
-    }
+.hero h1{
+font-size:30px;
+}
 
-    .gallery-grid-3 {
-      grid-template-columns: repeat(3, 1fr);
-    }
+.nav{
+display:none;
+}
 
-    .gallery-grid-6 {
-      grid-template-columns: repeat(3, 1fr);
-    }
+}
 
-    .gallery-item {
-      background: #fff;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    }
+</style>
 
-    .gallery-item img {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .gallery-caption {
-      padding: 16px;
-      text-align: center;
-      font-size: 16px;
-      color: #444;
-      background: #fff;
-    }
-
-    .seo-box {
-      background: #fff;
-      border-radius: 12px;
-      padding: 36px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      text-align: center;
-    }
-
-    .seo-box h3 {
-      margin-top: 0;
-      font-size: 30px;
-      margin-bottom: 16px;
-    }
-
-    .seo-box p {
-      margin: 0 auto;
-      max-width: 900px;
-      color: #555;
-      font-size: 18px;
-    }
-
-    .contact {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 70px 20px;
-    }
-
-    .contact h2 {
-      font-size: 38px;
-      margin-top: 0;
-      margin-bottom: 16px;
-    }
-
-    .contact p {
-      font-size: 18px;
-      color: #e5e5e5;
-      margin-bottom: 28px;
-    }
-
-    .footer {
-      background: #000;
-      color: #fff;
-      text-align: center;
-      padding: 22px 16px;
-      font-size: 16px;
-    }
-
-    @media (max-width: 980px) {
-      .services,
-      .gallery-grid-3,
-      .gallery-grid-6 {
-        grid-template-columns: 1fr;
-      }
-
-      .hero {
-        min-height: 430px;
-      }
-
-      .hero h1 {
-        font-size: 34px;
-      }
-
-      .hero p {
-        font-size: 18px;
-      }
-
-      .section-title {
-        font-size: 30px;
-      }
-
-      .gallery-item img {
-        height: 220px;
-      }
-    }
-  </style>
 </head>
+
 <body>
 
-  <div class="header">(주)더블케이로지스 3PL</div>
+<div class="header">
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>김포 · 인천 · 파주 3PL 풀필먼트 물류센터</h1>
-      <p>
-        입고 · 보관 · 재고관리 · 피킹 · 포장 · 출고까지<br>
-        온라인 셀러를 위한 맞춤형 물류 파트너
-      </p>
-      <div class="btn-group">
-        <a class="btn btn-primary" href="tel:01021241119">전화 상담</a>
-        <a class="btn btn-primary" href="mailto:doublek_logis@naver.com">이메일 문의</a>
-      </div>
-    </div>
-  </section>
+<div class="logo">
+(주) 더블케이로지스
+</div>
 
-  <section class="section">
-    <h2 class="section-title">더블케이로지스 물류 서비스</h2>
-    <p class="section-desc">
-      김포 물류센터를 기반으로 인천, 파주 인근 온라인 판매자를 위한
-      3PL 풀필먼트 물류 서비스를 제공합니다.
-    </p>
+<div class="nav">
 
-    <div class="services">
-      <div class="service-item">
-        <h3>입고 · 재고관리</h3>
-        <p>상품 입고, 수량 확인, 보관, 재고관리까지 체계적으로 운영합니다.</p>
-      </div>
-      <div class="service-item">
-        <h3>피킹 · 포장 · 출고</h3>
-        <p>주문 연동 후 피킹, 포장, 출고까지 빠르고 정확한 물류 프로세스를 제공합니다.</p>
-      </div>
-      <div class="service-item">
-        <h3>온라인 셀러 맞춤 운영</h3>
-        <p>스마트스토어, 쿠팡, 자사몰 판매자를 위한 맞춤형 풀필먼트 운영이 가능합니다.</p>
-      </div>
-      <div class="service-item">
-        <h3>김포 · 인천 · 파주 인근 대응</h3>
-        <p>김포를 중심으로 인천, 파주 인근 셀러와 브랜드의 물류 운영을 지원합니다.</p>
-      </div>
-    </div>
-  </section>
+<a href="#about">회사소개</a>
 
-  <section class="section">
-    <h2 class="section-title">창고 외부 전경</h2>
-    <p class="section-desc">
-      실제 운영 중인 더블케이로지스 물류센터 외부 사진입니다.
-    </p>
+<a href="#service">서비스</a>
 
-    <div class="gallery-grid-3">
-      <div class="gallery-item">
-        <img src="outside-1.jpg" alt="더블케이로지스 창고 외부 전경 1">
-        <div class="gallery-caption">물류센터 외부 전경</div>
-      </div>
-      <div class="gallery-item">
-        <img src="outside-2.jpg" alt="더블케이로지스 창고 외부 전경 2">
-        <div class="gallery-caption">센터 외관 및 진입 동선</div>
-      </div>
-      <div class="gallery-item">
-        <img src="outside-3.jpg" alt="더블케이로지스 창고 외부 전경 3">
-        <div class="gallery-caption">실제 운영 중인 물류센터</div>
-      </div>
-    </div>
-  </section>
+<a href="#warehouse">창고사진</a>
 
-  <section class="section">
-    <h2 class="section-title">창고 내부 운영 환경</h2>
-    <p class="section-desc">
-      대형 랙 시스템과 체계적인 동선으로 운영되는 더블케이로지스 실내 사진입니다.
-    </p>
+<a href="#map">위치</a>
 
-    <div class="gallery-grid-6">
-      <div class="gallery-item">
-        <img src="inside-1.jpg" alt="더블케이로지스 창고 내부 1">
-        <div class="gallery-caption">랙 기반 보관 시스템</div>
-      </div>
-      <div class="gallery-item">
-        <img src="inside-2.jpg" alt="더블케이로지스 창고 내부 2">
-        <div class="gallery-caption">대형 보관 구역</div>
-      </div>
-      <div class="gallery-item">
-        <img src="inside-3.jpg" alt="더블케이로지스 창고 내부 3">
-        <div class="gallery-caption">체계적인 재고 운영</div>
-      </div>
-      <div class="gallery-item">
-        <img src="inside-4.jpg" alt="더블케이로지스 창고 내부 4">
-        <div class="gallery-caption">실내 작업 공간</div>
-      </div>
-      <div class="gallery-item">
-        <img src="inside-5.jpg" alt="더블케이로지스 창고 내부 5">
-        <div class="gallery-caption">피킹 및 포장 환경</div>
-      </div>
-      <div class="gallery-item">
-        <img src="inside-6.jpg" alt="더블케이로지스 창고 내부 6">
-        <div class="gallery-caption">풀필먼트 운영 현장</div>
-      </div>
-    </div>
-  </section>
+<a href="quote.html">견적요청</a>
 
-  <section class="section">
-    <div class="seo-box">
-      <h3>김포 3PL · 인천 3PL · 파주 3PL 물류 파트너</h3>
-      <p>
-        더블케이로지스는 김포 3PL 물류센터를 기반으로 인천 3PL, 파주 3PL 수요까지 대응하는
-        풀필먼트 물류 서비스를 제공합니다.
-        쇼핑몰 물류대행, 재고관리, 피킹, 포장, 출고까지 온라인 셀러를 위한 실무 중심 물류 운영을 지원합니다.
-      </p>
-    </div>
-  </section>
+</div>
 
-  <section class="contact">
-    <h2>물류 상담 및 견적 문의</h2>
-    <p>
-      김포, 인천, 파주 인근 3PL 물류센터가 필요하신가요?<br>
-      더블케이로지스가 온라인 셀러 맞춤형 물류 운영을 제안드립니다.
-    </p>
-    <div class="btn-group">
-      <a class="btn btn-primary" href="tel:01021241119">전화 상담</a>
-      <a class="btn btn-primary" href="mailto:doublek_logis@naver.com">이메일 문의</a>
-    </div>
-  </section>
+</div>
 
-  <div class="footer">© DoubleK Logis</div>
+
+<section class="hero">
+
+<h1>김포 더블케이로지스 3PL 풀필먼트</h1>
+
+<p>
+온라인 쇼핑몰 판매자를 위한 물류 파트너
+</p>
+
+<a class="btn" href="tel:01021241119">📞 전화 상담</a>
+
+<a class="btn" href="https://open.kakao.com/o/sqStQbth" target="_blank">💬 카카오 상담</a>
+
+<a class="btn" href="quote.html">📦 3PL 견적 요청</a>
+
+</section>
+
+
+<section class="section" id="about">
+
+<h2>회사 소개</h2>
+
+<p>
+
+더블케이로지스는 경력 10년이상 전문가들이 운영하는 
+경기도 김포시 학운산단인근 검단양촌 IC에서 5분거리에 위치한  
+3PL 풀필먼트 신축자가센터를 보유한 물류센터입니다.
+
+</p>
+
+<p>
+
+김포 물류센터를 기반으로 택배대리점도 운영중으로 부자재,택배비 모든부분에서   
+비용절감과쿠팡,올리브영,B2B B2C 온라인 셀러를 위한  
+물류대행 서비스를 제공합니다.
+
+</p>
+
+</section>
+
+
+<section class="section" id="service">
+
+<h2>3PL 물류 서비스</h2>
+
+<p>
+
+입고 · 보관 · 재고관리 · 피킹 · 포장 · 출고·주문수집·쇼핑몰에전송까지 WMS시스템으로 
+판매자는 클릭한번에 모든게 가능한 온라인 쇼핑몰 판매자를 위한 풀필먼트 서비스를 제공합니다.
+
+</p>
+
+</section>
+
+
+<section class="section" id="warehouse">
+
+<h2>창고 외부</h2>
+
+<div class="gallery">
+
+<img src="outside-1.jpg">
+
+<img src="outside-2.jpg">
+
+<img src="outside-3.jpg">
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>창고 내부</h2>
+
+<div class="gallery">
+
+<img src="inside-1.jpg">
+
+<img src="inside-2.jpg">
+
+<img src="inside-3.jpg">
+
+<img src="inside-4.jpg">
+
+<img src="inside-5.jpg">
+
+<img src="inside-6.jpg">
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>김포 3PL 물류센터</h2>
+
+<p>
+
+더블케이로지스는 김포 3PL 물류센터를 기반으로  
+인천·경기·서울 수도권 물류B2B,B2c 모든 부분에 대응가능한  
+풀필먼트 물류 서비스를 제공합니다.
+
+</p>
+
+</section>
+
+
+<section class="section" id="map">
+
+<h2>물류센터 위치</h2>
+
+<p>
+
+경기도 김포시 대곶면 대곶남로 307-1
+
+</p>
+
+<a class="btn"
+
+href="https://map.naver.com/p/entry/place/2027396287?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=126.5895216&lat=37.6217716&c=15.00,0,0,0,dh"
+
+target="_blank">
+
+📍 네이버 지도 보기
+
+</a>
+
+</section>
+
+
+<section class="contact">
+
+<h2>3PL 물류 상담</h2>
+
+<p>
+
+온라인 쇼핑몰 물류 대행 문의 환영합니다
+
+</p>
+
+<a class="btn" href="tel:01021241119">전화 상담</a>
+
+<a class="btn" href="https://open.kakao.com/o/sqStQbth" target="_blank">카카오 상담</a>
+
+<a class="btn" href="quote.html">견적 요청</a>
+
+</section>
+
+
+<div class="footer">
+
+© DoubleK Logis
+
+</div>
+
+
+<div class="floating">
+
+<a class="float-btn kakao" href="https://open.kakao.com/o/sqStQbth" target="_blank">카카오 상담</a>
+
+<a class="float-btn phone" href="tel:01021241119">전화 상담</a>
+
+<a class="float-btn quote" href="quote.html">견적 요청</a>
+
+</div>
+
 
 </body>
 </html>
